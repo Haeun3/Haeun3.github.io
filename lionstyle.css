@@ -1,3 +1,63 @@
+@import url(http://fonts.googleapis.com/earlyaccess/nanumgothic.css);
 html{
-    font-family: sans-serif;
+    font-family:'Nanum Gothic',돋움;
+}
+nav{
+    width:100%;
+    height: 70px;
+}
+.head{
+    float:left;
+}
+.menubar{
+    list-style:none;
+    float:right;
+}
+.menu{
+    display:inline;
+    font-size:15px;
+    padding:10px;
+}
+header{
+    width:100%;
+    height:600px;
+}
+.background_img{
+    height:600px;
+    background-image: url('bg.jpg');
+    background-size:100% 600px;
+}
+section{
+    width:100%;
+}
+footer{
+    width:100%;
+}
+.container{
+    width:960px;
+    margin:auto;
+}
+.text-center{
+  text-align: center;
+}
+.information{
+    font-size:15px;
+    list-style:none;
+    text-align: center;
+}
+.likelion{
+    font-size:60px;
+    font-family:'Nanum Gothic',돋움;
+    text-align: center;
+    padding-top: 130px;
+}
+.arti{
+    margin:100px auto;
+}
+.article_text{
+    font-size:15px;
+    margin-top:10px;
+}
+.arti2{
+    display: inline-block;
 }
